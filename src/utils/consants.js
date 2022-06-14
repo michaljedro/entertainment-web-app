@@ -5,19 +5,25 @@ export const links = [
   {
     id: 1,
     text: "bookmark",
-    url: "/",
-    icon: "FaBookmark",
+    url: "/bookmark",
+    icon: <FaBookmark />,
   },
   {
     id: 2,
-    text: "about",
-    url: "/about",
-    icon: "FaWindows",
+    text: "home",
+    url: "/home",
+    icon: <FaWindows />,
   },
   {
     id: 3,
-    text: "products",
-    url: "/products",
-    icon: "MdLocalMovies",
+    text: "movies",
+    url: "/movies",
+    icon: <MdLocalMovies />,
+  },
+  {
+    id: 3,
+    text: "tv-series",
+    url: "/series",
+    icon: <MdLocalMovies />,
   },
 ];
