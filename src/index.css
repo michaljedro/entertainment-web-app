@@ -88,32 +88,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  h4 {
-    font-size: 1.5rem;
-  }
-  h5 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-}
+
 /*  global classes */
 
 /* section */
@@ -126,7 +101,10 @@ p {
   max-width: var(--max-width);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 8rem;
+  }
   .section-center {
     width: 95vw;
   }
@@ -187,4 +165,31 @@ p {
 }
 .page {
   min-height: calc(100vh - (20vh + 10rem));
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
 }
